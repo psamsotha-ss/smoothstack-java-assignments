@@ -25,8 +25,8 @@ public class Main {
             System.out.println(colorize("Assignments:", Attribute.BRIGHT_YELLOW_TEXT(), Attribute.BOLD()));
             printAssignments(assignmentsList);
             System.out.println();
-            System.out.print(colorize("Make a selection (or 'q' to quit): ", Attribute.YELLOW_TEXT(), Attribute.BOLD()));
 
+            System.out.print(colorize("Make a selection (or 'q' to quit): ", Attribute.YELLOW_TEXT(), Attribute.BOLD()));
             String input = in.readLine();
             if ("q".equals(input)) {
                 System.exit(0);
@@ -64,7 +64,7 @@ public class Main {
             System.out.println(colorize("Program arguments:", Attribute.YELLOW_TEXT()));
             for (Argument arg: arguments) {
                 System.out.print(colorize("  " + arg.getName(), Attribute.RED_TEXT()));
-                System.out.print(" - " + arg.getDescription() + "? ");
+                System.out.print(" - " + arg.getDescription() + ": ");
                 String argInput = in.readLine().trim();
                 if (arg.isList()) {
                     args = argInput.split("\\s+");
@@ -103,7 +103,9 @@ public class Main {
 
                 new javabasics2.Assignment1(),
                 new javabasics2.Assignment2(),
-                new javabasics2.Assignment3()
+                new javabasics2.Assignment3(),
+
+                new javabasics3.Assignment1()
         );
     }
 }

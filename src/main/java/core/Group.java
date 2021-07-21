@@ -1,7 +1,5 @@
 package core;
 
-import java.util.List;
-
 public enum Group {
 
     ONE("Java Basics 1"),
