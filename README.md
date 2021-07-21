@@ -6,8 +6,8 @@ The classes are structured to accept arguments either when running the class ind
 
 ## Running interactive session
 
-```bash
-$ git clone https://github.com/psamsotha/smoothstack-java-assignments.git
+```shell
+$ git clone https://github.com/psamsotha-ss/smoothstack-java-assignments.git
 $ cd smoothstack-java-assignments
 $ ./mvnw clean package
 $ java -jar target/smoothstack.jar
