@@ -15,7 +15,7 @@ import core.Group;
  */
 public class Assignment3 implements Assignment {
 
-    public static void main(String... args) throws IOException {
+    public static void main(String... args) {
         List<Shape> shapes = Arrays.asList(
                 new Rectangle(100, 100),
                 new Circle(100),
@@ -98,11 +98,7 @@ public class Assignment3 implements Assignment {
 
     @Override
     public void run(String... args) {
-        try {
-            main(args);
-        } catch (IOException e) {
-            System.out.println("An error occurred running the program.");
-        }
+        main(args);
     }
 
     @Override

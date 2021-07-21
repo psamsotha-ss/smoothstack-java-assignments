@@ -10,7 +10,7 @@ import core.Group;
 
 public class Assignment2 implements Assignment {
 
-    private static final int DEFAULTS_ROWS = 10;
+    private static final int DEFAULT_ROWS = 10;
     private static final int DEFAULT_COLS = 10;
 
     /**
@@ -28,7 +28,7 @@ public class Assignment2 implements Assignment {
                 return;
             }
         } else {
-            arr = create2dArray(DEFAULTS_ROWS, DEFAULT_COLS);
+            arr = create2dArray(DEFAULT_ROWS, DEFAULT_COLS);
         }
         int max = arr[0][0];
         int maxRow = 0;

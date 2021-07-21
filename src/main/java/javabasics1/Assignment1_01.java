@@ -16,7 +16,7 @@ import core.Group;
  * **
  * ***
  * ****
- * .........
+ * .......
  */
 public class Assignment1_01 implements Assignment {
 
@@ -64,12 +64,11 @@ public class Assignment1_01 implements Assignment {
     @Override
     public String getDetails() {
         return "Write a Java program that prints out the following patterns using loops:\n" +
-                "\n" +
                 "*\n" +
                 "**\n" +
                 "***\n" +
                 "****\n" +
-                ".........";
+                ".......";
     }
 
     @Override

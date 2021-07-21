@@ -43,8 +43,6 @@ public class Main {
             } catch (NumberFormatException ex) {
                 System.out.println(input + " is not a valid option.");
             }
-            //noinspection BusyWait
-            Thread.sleep(1);
         }
     }
 
