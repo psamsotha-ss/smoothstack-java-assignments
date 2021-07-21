@@ -104,7 +104,8 @@ public class Main {
                 new javabasics1.Assignment2(),
 
                 new javabasics2.Assignment1(),
-                new javabasics2.Assignment2()
+                new javabasics2.Assignment2(),
+                new javabasics2.Assignment3()
         );
     }
 }

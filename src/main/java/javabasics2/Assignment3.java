@@ -1,16 +1,25 @@
 package javabasics2;
 
+import java.io.IOException;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
-public class Assignment3 {
+import core.Argument;
+import core.Assignment;
+import core.Group;
 
-    public static void main(String... args) {
+/**
+ * Create a Shape Interface with the methods "calculateArea" and "display".
+ * Create a Rectangle, Circle, and Triangle class to implement that interface.
+ */
+public class Assignment3 implements Assignment {
+
+    public static void main(String... args) throws IOException {
         List<Shape> shapes = Arrays.asList(
+                new Rectangle(100, 100),
                 new Circle(100),
-                new Rectangle(50, 100),
-                new Triangle(30, 40 , 50));
-
+                new Triangle(30, 40, 50));
         for (Shape shape: shapes) {
             shape.display();
         }
@@ -85,5 +94,40 @@ public class Assignment3 {
             System.out.println(
                     "A triangle with sides (" + a + "," + b + "," + c + ") has an area of " + calculateArea());
         }
+    }
+
+    @Override
+    public void run(String... args) {
+        try {
+            main(args);
+        } catch (IOException e) {
+            System.out.println("An error occurred running the program.");
+        }
+    }
+
+    @Override
+    public Group getGroup() {
+        return Group.TWO;
+    }
+
+    @Override
+    public String getName() {
+        return "Assignment 3";
+    }
+
+    @Override
+    public String getDetails() {
+        return "Create a Shape Interface with the methods \"calculateArea\" and \"display\".\n" +
+                "Create a Rectangle, Circle, and Triangle class to implement that interface.";
+    }
+
+    @Override
+    public String getUsage() {
+        return "Usage: java -cp target/classes javabasics2.Assignment3";
+    }
+
+    @Override
+    public List<Argument> getArguments() {
+        return Collections.emptyList();
     }
 }
