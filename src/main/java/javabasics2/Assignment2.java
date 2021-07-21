@@ -24,7 +24,7 @@ public class Assignment2 implements Assignment {
                 int cols = Integer.parseInt(args[1]);
                 arr = create2dArray(rows, cols);
             } catch (NumberFormatException ex) {
-                System.out.println("Only numbers allowed: " + Arrays.toString(args));
+                System.out.println("Only integers allowed: " + Arrays.toString(args));
                 return;
             }
         } else {

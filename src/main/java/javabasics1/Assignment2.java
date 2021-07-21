@@ -90,7 +90,7 @@ public class Assignment2 implements Assignment {
 
     @Override
     public String getUsage() {
-        return "java -cp target/classes javabasics1.Assignment2";
+        return "Usage: java -cp target/classes javabasics1.Assignment2";
     }
 
     @Override

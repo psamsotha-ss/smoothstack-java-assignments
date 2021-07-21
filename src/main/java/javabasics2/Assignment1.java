@@ -19,7 +19,7 @@ public class Assignment1 implements Assignment {
                 int num = Integer.parseInt(arg.trim());
                 sum += num;
             } catch (NumberFormatException ex) {
-                System.out.println(arg.trim() + " is not a number");
+                System.out.println("'" + arg.trim() + "' is not an integer");
             }
         }
 
