@@ -21,7 +21,7 @@ public class Assignment1 implements Assignment {
 
     public static void main(String... args) {
         String dir = args.length > 0
-                ? args[0].trim().equals("") ? DEFAULT_DIR : args[0].trim()
+                ? "".equals(args[0].trim()) ? DEFAULT_DIR : args[0].trim()
                 : DEFAULT_DIR;
         Path path = Paths.get(dir);
         File file = path.toFile();
