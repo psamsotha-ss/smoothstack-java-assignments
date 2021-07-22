@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -13,11 +14,31 @@ import static com.diogonunes.jcolor.Ansi.colorize;
 
 public class Main {
 
+    private static final List<Assignment> ASSIGNMENTS;
+
+    static {
+        List<Assignment> assignments = Arrays.asList(
+                new javabasics1.Assignment1_01(),
+                new javabasics1.Assignment1_02(),
+                new javabasics1.Assignment1_03(),
+                new javabasics1.Assignment1_04(),
+                new javabasics1.Assignment2(),
+
+                new javabasics2.Assignment1(),
+                new javabasics2.Assignment2(),
+                new javabasics2.Assignment3(),
+
+                new javabasics3.Assignment1(),
+                new javabasics3.Assignment2(),
+                new javabasics3.Assignment3());
+        ASSIGNMENTS = Collections.unmodifiableList(assignments);
+    }
+
     public static void main(String... args) throws IOException, InterruptedException {
         System.out.println();
         System.out.println(colorize("Smoothstack Core Java Assignments", Attribute.BRIGHT_GREEN_TEXT(), Attribute.BOLD()));
         System.out.println(colorize("---------------------------------", Attribute.BRIGHT_GREEN_TEXT(), Attribute.BOLD()));
-        List<Assignment> assignmentsList = getAssignmentsList();
+        List<Assignment> assignmentsList = ASSIGNMENTS;
 
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         while (true) {
@@ -91,23 +112,5 @@ public class Main {
                 }
             }
         }
-    }
-
-    private static List<Assignment> getAssignmentsList() {
-        return Arrays.asList(
-                new javabasics1.Assignment1_01(),
-                new javabasics1.Assignment1_02(),
-                new javabasics1.Assignment1_03(),
-                new javabasics1.Assignment1_04(),
-                new javabasics1.Assignment2(),
-
-                new javabasics2.Assignment1(),
-                new javabasics2.Assignment2(),
-                new javabasics2.Assignment3(),
-
-                new javabasics3.Assignment1(),
-                new javabasics3.Assignment2(),
-                new javabasics3.Assignment3()
-        );
     }
 }
