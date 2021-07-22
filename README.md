@@ -33,3 +33,4 @@ $ java -jar target/smoothstack.jar
     * [Assignment 3](src/main/java/javabasics3/Assignment3.java)
 * **Java Basics 4**
     * [Assignment 1](src/main/java/javabasics4/Assignment1.java)
+    * [Assignment 2](src/main/java/javabasics4/Assignment2.java)
