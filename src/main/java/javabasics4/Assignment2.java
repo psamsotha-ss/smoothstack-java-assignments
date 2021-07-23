@@ -33,7 +33,9 @@ public class Assignment2 {
                 try {
                     Thread.sleep(100);
                     System.out.println("Using object1 with TaskOne");
-                } catch (InterruptedException ex) {}
+                } catch (InterruptedException ex) {
+                    ex.printStackTrace();
+                }
                 synchronized (object2) {
                     System.out.println("Using object2 with TaskOne");
                 }
@@ -57,7 +59,9 @@ public class Assignment2 {
                 try {
                     Thread.sleep(100);
                     System.out.println("Using object2 with TaskTwo");
-                } catch (InterruptedException ex) {}
+                } catch (InterruptedException ex) {
+                    ex.printStackTrace();
+                }
                 synchronized (object1) {
                     System.out.println("Using object1 with TaskTwo");
                 }
