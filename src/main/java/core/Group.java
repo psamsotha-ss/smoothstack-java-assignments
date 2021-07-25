@@ -6,7 +6,8 @@ public enum Group {
     TWO("Java Basics 2"),
     THREE("Java Basics 3"),
     FOUR("Java Basics 4"),
-    FIVE("Java Basics 5");
+    FIVE("Java Basics 5"),
+    WEEK_ONE("Week 1 Assignments");
 
     private final String name;
 
