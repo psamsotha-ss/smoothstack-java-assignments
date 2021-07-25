@@ -32,7 +32,8 @@ public class Main {
                 new javabasics3.Assignment2(),
                 new javabasics3.Assignment3(),
 
-                new javabasics5.Assignment1_01());
+                new javabasics5.Assignment1_01(),
+                new javabasics5.Assignment1_02());
         ASSIGNMENTS = Collections.unmodifiableList(assignments);
     }
 

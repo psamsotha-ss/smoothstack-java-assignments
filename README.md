@@ -37,4 +37,5 @@ $ java -jar target/smoothstack.jar
     * [Assignment 3](src/main/java/javabasics4/Assignment3.java)
     * [Assignment 4](src/test/java/javabasics4/LineTest.java)
 * **Java Basics 5**
-    * [Assignment 1-1](src/main/java/javabasics5/Assignment1_01.java)
+    * [Assignment 1-1](src/main/java/javabasics5/Assignment1_01.java) ([tests](src/test/java/javabasics5/Assignment1_01Test.java))
+    * [Assignment 1-2](src/main/java/javabasics5/Assignment1_02.java) ([tests](src/test/java/javabasics5/Assignment1_02Test.java))
