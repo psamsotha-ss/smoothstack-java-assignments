@@ -40,7 +40,8 @@ public class Main {
                 new week1assignments.Assignment2(),
                 new week1assignments.Assignment3(),
                 new week1assignments.Assignment4(),
-                new week1assignments.Assignment5());
+                new week1assignments.Assignment5(),
+                new week1assignments.Assignment6());
         ASSIGNMENTS = Collections.unmodifiableList(assignments);
     }
 

@@ -47,4 +47,5 @@ $ java -jar target/smoothstack.jar
     * [Assignment 3](src/main/java/week1assignments/Assignment3.java) ([tests](src/test/java/week1assignments/Assignment3Test.java))
     * [Assignment 4](src/main/java/week1assignments/Assignment4.java) ([tests](src/test/java/week1assignments/Assignment4Test.java))
     * [Assignment 5](src/main/java/week1assignments/Assignment5.java) ([tests](src/test/java/week1assignments/Assignment5Test.java))
+    * [Assignment 6](src/main/java/week1assignments/Assignment6.java) ([tests](src/test/java/week1assignments/Assignment6Test.java))
   
