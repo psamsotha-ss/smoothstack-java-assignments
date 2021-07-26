@@ -37,7 +37,8 @@ public class Main {
                 new javabasics5.Assignment1_03(),
 
                 new week1assignments.Assignment1(),
-                new week1assignments.Assignment2());
+                new week1assignments.Assignment2(),
+                new week1assignments.Assignment3());
         ASSIGNMENTS = Collections.unmodifiableList(assignments);
     }
 
@@ -100,8 +101,9 @@ public class Main {
                 }
                 args[arg.getPosition() - 1] = argInput;
             }
+            System.out.println();
         }
-        System.out.println();
+
         assignment.run(args);
     }
 

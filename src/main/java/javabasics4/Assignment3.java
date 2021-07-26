@@ -19,7 +19,7 @@ public class Assignment3 {
 
     private static final int BUFFER_CAPACITY = 2;
     private static final int MAX_PRODUCE = 10;
-    private static final int RANDOM_SLEEP_SECS = 5;
+    private static final int RANDOM_SLEEP_SECS = 10;
 
     public static void main(String... args) {
         IntBuffer buffer = new IntBuffer(BUFFER_CAPACITY);
