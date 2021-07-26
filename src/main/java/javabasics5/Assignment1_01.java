@@ -107,10 +107,10 @@ public class Assignment1_01 implements Assignment {
 
     @Override
     public String getDetails() {
-        return "Basic lambdas. Make an array containing a few Strings. Sort it by\n" +
-                " - length\n" +
-                " - reverse length\n" +
-                " - alphabetically by the first character only\n" +
+        return "Basic lambdas. Make an array containing a few Strings. Sort it by" + System.lineSeparator() +
+                " - length" + System.lineSeparator() +
+                " - reverse length" + System.lineSeparator() +
+                " - alphabetically by the first character only" + System.lineSeparator() +
                 " - strings that contain \"e\" first";
     }
 

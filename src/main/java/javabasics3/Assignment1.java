@@ -71,7 +71,7 @@ public class Assignment1 implements Assignment {
 
     @Override
     public String getDetails() {
-        return "Write a Java program to get a list of all file/directory names\n" +
+        return "Write a Java program to get a list of all file/directory names" + System.lineSeparator() +
                 "(including in subdirectories) under a given directory.";
     }
 

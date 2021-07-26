@@ -51,7 +51,7 @@ public class Assignment1_03 implements Assignment {
 
     @Override
     public String getDetails() {
-        return "Given a list of Strings, write a method that returns a list of all strings\n" +
+        return "Given a list of Strings, write a method that returns a list of all strings" + System.lineSeparator() +
                 "that start with the letter 'a' (lower case) and have exactly 3 letters.";
     }
 

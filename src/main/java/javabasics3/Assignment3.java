@@ -77,7 +77,7 @@ public class Assignment3 implements Assignment  {
 
     @Override
     public String getDetails() {
-        return "Write a Java program that counts the number of times a particular character, such as 'e',\n" +
+        return "Write a Java program that counts the number of times a particular character, such as 'e'," + System.lineSeparator() +
                 "appears in a file. The character can be specified at the command line.";
     }
 

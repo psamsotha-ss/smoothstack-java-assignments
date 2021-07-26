@@ -63,11 +63,11 @@ public class Assignment1_01 implements Assignment {
 
     @Override
     public String getDetails() {
-        return "Write a Java program that prints out the following patterns using loops:\n" +
-                "*\n" +
-                "**\n" +
-                "***\n" +
-                "****\n" +
+        return "Write a Java program that prints out the following patterns using loops:" + System.lineSeparator() +
+                "*" + System.lineSeparator() +
+                "**" + System.lineSeparator() +
+                "***" + System.lineSeparator() +
+                "****" + System.lineSeparator() +
                 ".......";
     }
 

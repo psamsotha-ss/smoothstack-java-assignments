@@ -81,9 +81,9 @@ public class Assignment1 implements Assignment {
 
     @Override
     public String getDetails() {
-        return "Write the following methods that return a lambda expression performing a specified action:\n" +
-                " - isOdd()\n" +
-                " - isPrime()\n" +
+        return "Write the following methods that return a lambda expression performing a specified action:" + System.lineSeparator() +
+                " - isOdd()" + System.lineSeparator() +
+                " - isPrime()" + System.lineSeparator() +
                 " - isPalindrome()";
     }
 

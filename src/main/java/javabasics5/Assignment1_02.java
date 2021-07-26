@@ -46,8 +46,8 @@ public class Assignment1_02 implements Assignment {
 
     @Override
     public String getDetails() {
-        return "Using Java 8 features write a method that returns a comma separated string based\n" +
-                "on a given list of integers. Each element should be preceded by the letter 'e' if\n" +
+        return "Using Java 8 features write a method that returns a comma separated string based" + System.lineSeparator() +
+                "on a given list of integers. Each element should be preceded by the letter 'e' if" + System.lineSeparator() +
                 "the number is even, and preceded by the letter 'o' if the number is odd";
     }
 

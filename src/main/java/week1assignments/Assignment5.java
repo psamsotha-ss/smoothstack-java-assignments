@@ -104,9 +104,9 @@ public class Assignment5 implements Assignment {
 
     @Override
     public String getDetails() {
-        return "Given an array of ints, is it possible to choose a group of some of the ints,\n" +
-                "such that the group sums to the given target, with this additional constraint:\n" +
-                "if there are numbers in the array that are adjacent and the identical value,\n" +
+        return "Given an array of ints, is it possible to choose a group of some of the ints," + System.lineSeparator() +
+                "such that the group sums to the given target, with this additional constraint:" + System.lineSeparator() +
+                "if there are numbers in the array that are adjacent and the identical value," + System.lineSeparator() +
                 "they must either all be chosen, or none of them chosen.";
     }
 

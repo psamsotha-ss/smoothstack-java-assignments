@@ -113,7 +113,7 @@ public class Assignment3 implements Assignment {
 
     @Override
     public String getDetails() {
-        return "Create a Shape Interface with the methods \"calculateArea\" and \"display\".\n" +
+        return "Create a Shape Interface with the methods \"calculateArea\" and \"display\"." + System.lineSeparator() +
                 "Create a Rectangle, Circle, and Triangle class to implement that interface.";
     }
 

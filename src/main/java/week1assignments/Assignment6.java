@@ -25,7 +25,7 @@ public class Assignment6 implements Assignment {
             }
             return instance;
         }
-    }   
+    }
 
     @Override
     public void run(String... args) {

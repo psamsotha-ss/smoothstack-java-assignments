@@ -81,10 +81,10 @@ public class Assignment2 implements Assignment {
 
     @Override
     public String getDetails() {
-        return "- User is asked to guess a number 1-100. (Program chooses randomly.)\n" +
-                "- If the guess is within 10 of the correct answer, plus or minus, output the correct answer and exit.\n" +
-                "     (If the answer is 63, user must guess 53-73.)\n" +
-                "- If the number is not within 10 of the correct answer, ask the user to keep guessing.\n" +
+        return "- User is asked to guess a number 1-100. (Program chooses randomly.)" + System.lineSeparator() +
+                "- If the guess is within 10 of the correct answer, plus or minus, output the correct answer and exit." + System.lineSeparator() +
+                "     (If the answer is 63, user must guess 53-73.)" + System.lineSeparator() +
+                "- If the number is not within 10 of the correct answer, ask the user to keep guessing." + System.lineSeparator() +
                 "- If the user does not succeed within 5 attempts, display, \"Sorry,\" along with the answer and exit.";
     }
 
