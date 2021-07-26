@@ -29,7 +29,7 @@ public class Assignment1_01 implements Assignment {
                 rows = Integer.parseInt(args[0].trim());
             } catch (NumberFormatException ex) {
                 System.out.println("'" + args[0] + "' is not an integer.");
-                System.out.println("Usage: java -cp target/classes javabasics1.Assignment1_01 <integer>");
+                System.out.println(new Assignment1_01().getUsage());
                 return;
             }
         }

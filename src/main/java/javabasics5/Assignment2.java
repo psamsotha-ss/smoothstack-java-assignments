@@ -102,11 +102,7 @@ public class Assignment2 {
      * Write an example that tests whether a given date occurs on Friday the 13th.
      */
     public boolean question_7(LocalDate date) {
-        if (date.getDayOfWeek().equals(DayOfWeek.FRIDAY)
-                && date.getDayOfMonth() == 13) {
-            return true;
-        } else {
-            return false;
-        }
+        return date.getDayOfWeek().equals(DayOfWeek.FRIDAY)
+                && date.getDayOfMonth() == 13;
     }
 }

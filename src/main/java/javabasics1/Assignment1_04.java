@@ -26,7 +26,7 @@ public class Assignment1_04 implements Assignment {
                 rows = Integer.parseInt(args[0].trim());
             } catch (NumberFormatException ex) {
                 System.out.println("'" + args[0] + "' is not an integer.");
-                System.out.println("Usage: java -cp target/classes javabasics1.Assignment1_04 <integer>");
+                System.out.println(new Assignment1_04().getUsage());
                 return;
             }
         }
